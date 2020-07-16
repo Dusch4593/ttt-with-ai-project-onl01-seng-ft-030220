@@ -34,3 +34,5 @@ when 2
 when 3
   Game.new(Players::Computer.new("X"), Players::Computer.new("O")).play
 end
+
+exit
