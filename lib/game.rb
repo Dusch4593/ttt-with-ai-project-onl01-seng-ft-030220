@@ -56,6 +56,7 @@ class Game
     elsif draw?
       puts "Cat's Game!"
     end
+    exit
   end
 
   def turn
