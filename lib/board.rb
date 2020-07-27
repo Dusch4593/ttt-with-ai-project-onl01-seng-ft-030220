@@ -5,6 +5,8 @@ class Board
     self.reset!
   end
 
+  
+
   def display
     puts " #{@cells[0]} | #{@cells[1]} | #{@cells[2]} "
     puts "-----------"
